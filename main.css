@@ -282,7 +282,7 @@ hr {
 
 .sc-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -290,7 +290,7 @@ hr {
 .scBox {
   padding-bottom: 25px;
   padding-right: 20px;
-  margin: auto;
+  margin: ;
  }
 
 
