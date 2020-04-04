@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,700|Noto+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3ac3142e2a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src='main.js'></script>
+</head>
+
+
+
+<body>
+
+  <div id="box" class='sidebar'>
+    <button id="btn2" class='close-sidebar'>X</button>
+    <h4>ABOUT</h4>
+    <p class='sidebar-text'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+      Phasellus viverra nulla ut metus varius laoreet quisque rutrum.
+    </p>
+    <h4>INSTAGRAM</h4>
+    <p class='sidebar-text'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+      Phasellus viverra nulla ut metus varius laoreet quisque rutrum.
+    </p>
+  </div>
+
+
+
+
+  <div class='form-box'>
+    <form id='form-btn'>
+
+      <label for="fname">NAME</label><br>
+      <input type="text" id="fname" name="fname"><br>
+
+      <label for="fname">EMAIL</label><br>
+      <input type="text" id="fname" name="fname"><br>
+
+      <label for="myfile">SEND A LINK</label><br>
+      <input type="text" id="fname" name="fname"><br>
+
+      <label for="fname">Message</label><br>
+      <textarea id="w3mission" rows="4" cols="50"></textarea><br>
+
+      <button class='submit-form-btn'>
+        SEND MESSAGE
+      </button>
+    </form>
+  </div>
+
+
+
+  <div class='hero-container'>
+
+    <img src='images/flameguymacbookback copy.png' class='up-left-logo'>
+
+    <nav>
+      <div class='nav-links'>
+        <a class='link' href="#beats">BEATS</a>
+        <a class='link' href="#btb">BEHIND THE BEAT</a>
+        <a class='link' href="#protips">PRODUCER TIPS</a>
+        <a class='link' href="#releases">RELEASES</a>
+        <a class='link collab' id='flip' href="">COLLAB</a>
+        <a class='link' href="">CONTACT</a>
+        <button id='btn1' class='open-sidebar'><i class='fas fa-bars'></i></button>
+      </div>
+    </nav>
+
+    <div class='hero-text'>
+      <h3 class='subtext'>MICHIGAN MADE</h3>
+      <h2 class='titletext'>COLDEST IN MICHIGAN</h2>
+      <hr align="left">
+      <button onclick="window.location.href='#beats'" class='browse-btn'>BROWSE</button>
+    </div>
+  </div>
+
+  <div id='beats' class='beats'>
+    <h3 class='beats-subtext'>BEATS</h3>
+    <h2 class='beats-titletext'>PRODUCED BY SMOKIN JOE</h2>
+    <hr class='beats-hr'>
+
+    <div class="dropdown">
+      <button class="dropbtn">SORT BY GENRE</button>
+      <div class="dropdown-content">
+        <a href="#rap-beats">Rap & Hip-Hop</a>
+        <a href="#club-beats">Clup & Pop</a>
+        <a href="#rb-beats">R&B</a>
+      </div>
+    </div>
+
+    <div class='songs-container'>
+
+
+
+      <div class='soundcloud-grid'>
+
+
+        <div id='rap-beats'class='rap-beats'>
+          <div class='genre'>RAP & HIPHOP</div>
+          <div class='genre-subtext'>PRODUCTION</div>
+
+          <div class='sc-container'>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743664058&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/778002613&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789251&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689793784&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492753324&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
+        </div>
+
+        <div id='club-beats'class='rap-beats'>
+          <div class='genre'>CLUB & POP</div>
+          <div class='genre-subtext'>PRODUCTION</div>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743664058&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
+
+        <div id='rb-beats'class='rap-beats'>
+          <div class='genre'>R&B</div>
+          <div class='genre-subtext'>PRODUCTION</div>
+
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743664058&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/778002613&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <iframe class='scBox' width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789251&color=%23552089&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class='songs-grid'>
+
+        <div class='song song-1'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-2'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-3'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-4'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-5'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-6'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-7'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+
+        <div class='song song-8'>
+          <i class="far fa-play-circle"></i>
+          <p class='song-title'>Live Life</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id='btb' class='videos'>
+    <h3 class='beats-subtext'>VIDEOS</h3>
+    <h2 class='beats-titletext'>BEHIND THE BEAT</h2>
+    <hr class='beats-hr'>
+    <div class='video-container'>
+      <iframe class='iframe-special' src="https://www.youtube.com/embed/LZ4TEhdfLQw" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class='iframe-special' src="https://www.youtube.com/embed/LZ4TEhdfLQw" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div id='protips' class='tips'>
+    <h3 class='beats-subtext'>FREE GAME</h3>
+    <h2 class='beats-titletext'>PRODUCER TIPS</h2>
+    <hr class='beats-hr'>
+
+    <div class="w3-content w3-display-container">
+      <div class="mySlides" style="width:600px; color: black; text-align: center;">
+        <p class='tip-title tip-1'>PRO TIP 01</p>
+        <p class='tip-subtext tip-1'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.nulla ut metus varius laoreet quisque rutrum.
+          nulla ut metus varius laoreet quisque rutrum.</p>
+      </div>
+      <div class="mySlides" style="width:600px; color: black; text-align: center;">
+        <p class='tip-title tip-2'>PRO TIP 02</p>
+        <p class='tip-subtext tip-2'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
+      </div>
+      <div class="mySlides" style="width:600px; color: black; text-align: center;">
+        <p class='tip-title tip-3'>PRO TIP 03</p>
+        <p class='tip-subtext tip-3'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
+      </div>
+      <div class="mySlides" style="width:600px; color: black; text-align: center;">
+        <p class='tip-title tip-4'>PRO TIP 04</p>
+        <p class='tip-subtext tip-4'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
+      </div>
+      <div class="mySlides" style="width:600px; color: black; text-align: center;">
+        <p class='tip-title tip-5'>PRO TIP 05</p>
+        <p class='tip-subtext tip-5'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
+      </div>
+
+
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </div>
+
+  <div id='releases' class='projects'>
+    <div class='projects-box'>
+      <iframe class='iframe-special' width="800px" height="400px" scrolling="no" frameborder="no" allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597060708&color=%23cc1e1e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+      </iframe>
+      <div class='project-text'>
+        <h3>LISTEN NOW</h3>
+        <h2>LATEST RELEASES</h2>
+        <hr>
+        <p>lienum phaedrum torquatos nec eu, vis detraxit serpents periculiser ex,
+          nihil expetendis in mei. Meis an pericula eres euripidis, hinces partem ei est.
+          Eos ei nisl graecis.</p>
+        <div class='strm-group'>
+          <button class='spotify stream-btn'
+            href='https://open.spotify.com/track/3BM6YwD9hgh0YTyAfSJJNl?si=59-MasO3Sqew_Xwuz6cMAQ'>LISTEN ON
+            SPOTIFY</button>
+          <button class='apple-music stream-btn'
+            href='https://music.apple.com/us/album/rock-with-it/1450475274?i=1450475275'>LISTEN ON APPLE MUSIC</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h1>Smokin Joe</h1>
+    <div class='foot-icons'>
+      <i class="fab fa-instagram"></i>
+      <i class="far fa-envelope"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <h6>&copy;2020 SMOKIN JOE</h6>
+  </footer>
+
+
+  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("topBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+
+
+ 
+</body>
+
+
+
+</html>
