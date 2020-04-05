@@ -26,7 +26,6 @@ a {
   background-image: url('images/Untitled-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  
   width: 100%;
   height: auto;
 }
@@ -624,17 +623,27 @@ footer {
   display: none;
 }
 
+nav {
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+
 .nav-links {
-  margin-right: 0;
-  position: relative;
-  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .link {
-  font-size: 8px;
+  font-size: 10px;
   padding: 0;
-  margin-left: 5px;
-  margin-right: 5px;
+  padding-bottom: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .hero-text {
@@ -674,6 +683,7 @@ footer {
 
 .songs-container {
   margin-left: 0;
+  margin-top: 70px;
 }
 
 
@@ -731,15 +741,6 @@ iframe {
   margin-top: 40px;
 }
 
-.nav-links {
-  flex-direction: column;
-  padding-left: 15px;
-}
-
-.link {
-  font-size: 10px;
-}
-
 .up-left-logo {
   display: block;
   margin: auto;
@@ -752,6 +753,7 @@ iframe {
 
 .hero-container {
   padding-top: 30px;
+  
 }
 
 .genre {
