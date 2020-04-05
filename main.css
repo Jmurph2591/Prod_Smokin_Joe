@@ -287,6 +287,10 @@ hr {
   flex-wrap: wrap;
 }
 
+.rap-beats {
+  overflow: hidden;
+}
+
 .scBox {
   padding-bottom: 25px;
   padding-right: 20px;
