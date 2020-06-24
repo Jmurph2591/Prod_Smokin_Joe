@@ -10,25 +10,29 @@
   <script src="https://kit.fontawesome.com/3ac3142e2a.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src='main.js'></script>
+  <script src='sidebar.js'></script>
 </head>
 
 
 
 <body>
 
-  <div id="box" class='sidebar'>
-    <button id="btn2" class='close-sidebar'>X</button>
+
+  <!--<div id="sidebar" class='sidebar'>
+    <button id="closeSidebar" class='close-sidebar-btn' type='button'>X</button>
     <h4>ABOUT</h4>
-    <p class='sidebar-text'>Smokin Joe is a multi-genre music producer and songwriter who is known for his catchy melodies and smooth yet hard rhymths and grooves.
+    <p class='sidebar-text'>Smokin Joe is a multi-genre music producer and songwriter who is known for his catchy
+      melodies and smooth yet hard rhymths and grooves.
     </p>
     <h4>INSTAGRAM</h4>
-    <!-- SnapWidget -->
-<iframe src="https://snapwidget.com/embed/810117" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:285px; height:190px"></iframe>
-  </div>
+    
+    <iframe src="https://snapwidget.com/embed/810117" class="snapwidget-widget" allowtransparency="true" frameborder="0"
+      scrolling="no" style="border:none; overflow:hidden;  width:285px; height:190px"></iframe>
+  </div>-->
 
 
 
-
+  <!--
   <div class='form-box'>
     <form id='form-btn'>
 
@@ -49,22 +53,27 @@
       </button>
     </form>
   </div>
-
-
+  -->
 
   <div class='hero-container'>
-
     <img src='images/flameguymacbookback copy.png' class='up-left-logo'>
+    
+    <!--<div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div href="#">About</div>
+
+    </div>-->
 
     <nav>
-      <div class='nav-links'>
+      <div id='navLinks' class='nav-links'>
         <a class='link' href="#beats">BEATS</a>
         <a class='link' href="#btb">BEHIND THE BEAT</a>
-        <a class='link' href="#protips">PRODUCER TIPS</a>
-        <a class='link' href="#releases">RELEASES</a>
-        <a class='link collab' id='flip' href="">COLLAB</a>
-        <a class='link' href="">CONTACT</a>
-        <button id='btn1' class='open-sidebar'><i class='fas fa-bars'></i></button>
+        <a class='link' href="mailto:info@hitrecordsonly.com">CONTACT</a>
+        <!--<a class='link' style="cursor:pointer;" onclick="openNav()">ABOUT</a>-->
+        <!---<a class='link' href="#releases">RELEASES</a>-->
+        <!--<a class='link collab' id='flip' href="">COLLAB</a>-->
+        <!--<div id='hamburger-btn' class='hamburger'><i class='fas fa-bars'></i></div>-->
+        <!--<a class='link' style="cursor:pointer;" onclick="openNav()">&#9776;</a>-->
       </div>
     </nav>
 
@@ -79,8 +88,6 @@
   <div id='beats' class='beats'>
     <h3 class='beats-subtext'>BEATS</h3>
     <h2 class='beats-titletext'>PRODUCED BY SMOKIN JOE</h2>
-    <hr class='beats-hr'>
-
     <div class="dropdown">
       <button class="dropbtn">SORT BY GENRE</button>
       <div class="dropdown-content">
@@ -90,204 +97,126 @@
       </div>
     </div>
 
+    <hr class='beats-hr-custom'>
     <div class='songs-container'>
-
-
-
       <div class='soundcloud-grid'>
-
-
-        <div id='rap-beats'class='rap-beats'>
+        <div id='rap-beats' class='rap-beats'>
           <div class='genre'>RAP & HIPHOP</div>
           <div class='genre-subtext'>PRODUCTION</div>
-
           <div class='sc-container'>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743664058&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/693531079&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492586746&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627664185&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789251&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689793784&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492755376&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492753324&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492756822&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/542305998&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627665007&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/542265477&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/541153152&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/530109162&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        </div>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/743664058&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/693531079&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789185&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492586746&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627664185&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789251&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689793784&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492755376&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492753324&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492756822&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/542305998&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627665007&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/542265477&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/541153152&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/530109162&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
 
-        <div id='club-beats'class='rap-beats'>
-          <div class='genre'>CLUB & POP</div>
-          <div class='genre-subtext'>PRODUCTION</div>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492753630&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/778002613&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/697456732&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627665652&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627665790&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492756039&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492756405&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/772499917&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627666705&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492757563&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492594429&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492755784&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        </div>
+          <div id='club-beats' class='rap-beats'>
+            <div class='genre'>CLUB & POP</div>
+            <div class='genre-subtext'>PRODUCTION</div>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492753630&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/778002613&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/697456732&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627665652&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627665790&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492756039&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492756405&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/772499917&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627666705&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492757563&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492594429&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492755784&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
 
-        <div id='rb-beats'class='rap-beats'>
-          <div class='genre'>R&B</div>
-          <div class='genre-subtext'>PRODUCTION</div>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789269&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689793874&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789203&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/510235182&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627666660&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627667995&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492754770&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492755055&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/500858391&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/542264892&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-        </div>
-      </div>
-
-      <div class='songs-grid'>
-
-        <div class='song song-1'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-2'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-3'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-4'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-5'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-6'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-7'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
-        </div>
-
-        <div class='song song-8'>
-          <i class="far fa-play-circle"></i>
-          <p class='song-title'>Live Life</p>
+          <div id='rb-beats' class='rap-beats'>
+            <div class='genre'>R&B</div>
+            <div class='genre-subtext'>PRODUCTION</div>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789269&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689793874&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689789203&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/510235182&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627666660&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/627667995&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492754770&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492755055&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/500858391&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe class='scBox' width='100%' height='200' scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/542264892&color=%232c054d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-  <div id='btb' class='videos'>
-    <h3 class='beats-subtext'>VIDEOS</h3>
-    <h2 class='beats-titletext'>BEHIND THE BEAT</h2>
-    <hr class='beats-hr'>
-    <div class='video-container'>
-      <iframe class='iframe-special' src="https://www.youtube.com/embed/LZ4TEhdfLQw" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe class='iframe-special' src="https://www.youtube.com/embed/LZ4TEhdfLQw" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <div id='protips' class='tips'>
-    <h3 class='beats-subtext'>FREE GAME</h3>
-    <h2 class='beats-titletext'>PRODUCER TIPS</h2>
-    <hr class='beats-hr'>
-
-    <div class="w3-content w3-display-container">
-      <div class="mySlides" style="width:600px; color: black; text-align: center;">
-        <p class='tip-title tip-1'>PRO TIP 01</p>
-        <p class='tip-subtext tip-1'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.nulla ut metus varius laoreet quisque rutrum.
-          nulla ut metus varius laoreet quisque rutrum.</p>
-      </div>
-      <div class="mySlides" style="width:600px; color: black; text-align: center;">
-        <p class='tip-title tip-2'>PRO TIP 02</p>
-        <p class='tip-subtext tip-2'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
-      </div>
-      <div class="mySlides" style="width:600px; color: black; text-align: center;">
-        <p class='tip-title tip-3'>PRO TIP 03</p>
-        <p class='tip-subtext tip-3'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
-      </div>
-      <div class="mySlides" style="width:600px; color: black; text-align: center;">
-        <p class='tip-title tip-4'>PRO TIP 04</p>
-        <p class='tip-subtext tip-4'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
-      </div>
-      <div class="mySlides" style="width:600px; color: black; text-align: center;">
-        <p class='tip-title tip-5'>PRO TIP 05</p>
-        <p class='tip-subtext tip-5'>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-          Phasellus viverra nulla ut metus varius laoreet quisque rutrum.</p>
-      </div>
-
-
-
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-
-    </div>
-
-
-  </div>
-
-  <div id='releases' class='projects'>
-    <div class='projects-box'>
-      <iframe class='iframe-special' width="800px" height="400px" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597060708&color=%23cc1e1e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-      </iframe>
-      <div class='project-text'>
-        <h3>LISTEN NOW</h3>
-        <h2>LATEST RELEASES</h2>
-        <hr>
-        <p>Comic and Smokin Joe link up again for a new party anthem with an ever so catchy jazz saxophone you can't get enough of. Listen Now. </p>
-        <div class='strm-group'>
-          <button class='spotify stream-btn'
-            href='https://open.spotify.com/track/3BM6YwD9hgh0YTyAfSJJNl?si=59-MasO3Sqew_Xwuz6cMAQ'>LISTEN ON
-            SPOTIFY</button>
-          <button class='apple-music stream-btn'
-            href='https://music.apple.com/us/album/rock-with-it/1450475274?i=1450475275'>LISTEN ON APPLE MUSIC</button>
-        </div>
+    <div id='btb' class='videos'>
+      <h3 class='beats-subtext'>VIDEOS</h3>
+      <h2 class='beats-titletext'>BEHIND THE BEAT</h2>
+      <hr class='beats-hr'>
+      <div class='video-container'>
+        <iframe class='iframe-special' src="https://www.youtube.com/embed/LZ4TEhdfLQw" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class='iframe-special' src="https://www.youtube.com/embed/LZ4TEhdfLQw" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-  </div>
-  <footer>
-    <h1>Smokin Joe</h1>
-    <div class='foot-icons'>
-      <i class="fab fa-instagram"></i>
-      <i class="far fa-envelope"></i>
-      <i class="fab fa-youtube"></i>
-    </div>
-    <h6>&copy;2020 SMOKIN JOE</h6>
-  </footer>
 
+    <footer>
+      <h1>Smokin Joe</h1>
+      <div class='foot-icons'>
+        <i class="fab fa-instagram"></i>
+        <i class="far fa-envelope"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <h6>&copy;2020 SMOKIN JOE</h6>
+    </footer>
 
-  <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    <button id='scrollToTop' class='scrollToTop'>Top</button>
+
 </body>
-
-
 
 </html>
