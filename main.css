@@ -28,7 +28,7 @@ a {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 600px;
+  height: 720px;
 }
 
 nav {
@@ -170,7 +170,7 @@ textarea {
 }
 
 .beats {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .beats-titletext {
@@ -187,18 +187,33 @@ textarea {
   margin: 0;
 }
 
-.beats-hr-custom {
-  background: black;
-  position: absolute;
-  margin-left: 160px;
-  margin-top: 80px;
-}
-
 .beats-hr {
   background: black;
   position: absolute;
   margin-left: 160px;
-  margin-top: 30px;
+}
+
+.sort-genre-title {
+  color: grey;
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: lighter;
+  margin: 40px 0 0 160px;
+}
+
+.sort-beats {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 0 160px;
+}
+
+.genre-sort {
+  color: white;
+  background: #4d047d;
+  border-radius: 7px;
+  margin-right: 10px;
+  padding: 5px 5px 5px 5px;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 hr {
@@ -229,7 +244,6 @@ hr {
 
 .songs-container {
   display: flex;
-  margin-top: 100px;
   margin-left: 160px;
 }
 
@@ -320,7 +334,7 @@ hr {
 }
 
 h1 {
-  font-family: Againts refresh;
+  font-family: Againts;
   text-align: center;
   padding-top: 40px;
   color: #4d047d;
@@ -341,8 +355,11 @@ footer {
 .foot-icons {
   display: block;
   text-align: center;
-  font-size: 19px;
   color: #e1e1e1;
+}
+
+.foot-link {
+  padding: 0;
 }
 
 
@@ -350,6 +367,12 @@ footer {
 .fa-envelope,
 .fa-youtube {
   margin-right: 5px;
+}
+
+.fa-envelope,
+.fa-instagram
+ {
+  font-size: 20px;
 }
 
 .videos {
@@ -408,7 +431,7 @@ nav {
 
 .hero-text {
   margin-left: 15px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .browse-btn {
@@ -429,24 +452,27 @@ nav {
   padding-left: 15px;
 }
 
-.beats-hr-custom {
-  margin-left: 15px;
-}
-
 .beats-hr {
   margin-left: 15px;
 }
 
-.dropdown {
+.sort-genre-title {
+  margin: 40px 0 0 15px;
+}
+
+.sort-beats {
   display: flex;
-  position: relative;
-  margin-left: 15px;
-  padding: 0;
+  flex-direction: row;
+  margin: 10px 0 0 15px;
+}
+
+.genre-sort {
+  width: auto;
+  font-size: 10px;
 }
 
 .songs-container {
   margin-left: 0;
-  margin-top: 70px;
 }
 
 
@@ -516,7 +542,7 @@ iframe {
 
 .hero-container {
   padding-top: 30px;
-  
+  height: 550px;
 }
 
 .genre {
