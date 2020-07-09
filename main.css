@@ -247,13 +247,6 @@ hr {
   margin-left: 160px;
 }
 
-/*Custom song grid for SC*/
-.songs-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  display: none;
-}
 
 .soundcloud-grid {
   display: flex;
@@ -266,10 +259,16 @@ hr {
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
-.rap-beats {
-  overflow: hidden;
+.scPlayer {
+  width: 900px;
+  height: 470px;
+}
+
+.beats {
+  /*overflow: hidden;*/
   margin-top: 40px;
 }
 
@@ -324,7 +323,11 @@ hr {
 }
 
 .video-container {
-  margin: 100px 0 0 160px;
+  margin: 60px 0 0 160px;
+}
+
+.sc-ministats-group {
+  display: none;
 }
 
 .iframe-special {
@@ -442,6 +445,10 @@ nav {
   font-size: 45px;
 }
 
+.beats {
+  padding-top: 0;
+}
+
 .beats-titletext {
   padding-left: 15px;
   font-size: 35px;
@@ -466,6 +473,12 @@ nav {
   margin: 10px 0 0 15px;
 }
 
+.scPlayer {
+  width: 300px;
+  height: 400px;
+  padding-left: 15px;
+}
+
 .genre-sort {
   width: auto;
   font-size: 10px;
@@ -473,13 +486,6 @@ nav {
 
 .songs-container {
   margin-left: 0;
-}
-
-
-
-.songs-grid {
-  justify-content: center;
-  margin-right: 0;
 }
 
 .song {
