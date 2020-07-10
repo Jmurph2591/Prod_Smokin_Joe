@@ -66,7 +66,7 @@ nav {
 }
 
 .hero-text {
-  margin-top: 105px;
+  margin-top: 135px;
   margin-left: 160px;
 }
 
@@ -173,7 +173,11 @@ textarea {
 }
 
 .beats {
-  padding-top: 50px;
+  padding-top: 110px;
+}
+
+.playlists {
+  margin-top: 50px;
 }
 
 .beats-titletext {
@@ -231,13 +235,11 @@ hr {
   font-size: 15px;
   width: 150px;
   height: 40px;
-  margin-top: 40px;
-  border: none;
+  margin-top: 20px;
+  border: 2px solid #a52cf4;
   margin-bottom: 170px;
-}
-
-.browse-btn:hover {
-  background-color:  grey;
+  background: none;
+  color: white;
 }
 
 .fas:hover {
@@ -446,6 +448,14 @@ nav {
   font-size: 45px;
 }
 
+.beats {
+  padding-top: 40px;
+}
+
+.playlists {
+  margin-top: 40px;
+}
+
 .beats-titletext {
   padding-left: 15px;
   font-size: 35px;
@@ -473,7 +483,8 @@ nav {
 .scPlayer {
   width: 310px;
   height: 400px;
-  margin: 0 0 0 15px ;
+  padding-left: 15px;
+  margin: auto;
 }
 
 .genre-sort {
