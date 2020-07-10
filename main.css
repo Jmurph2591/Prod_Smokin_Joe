@@ -173,7 +173,7 @@ textarea {
 }
 
 .beats {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .beats-titletext {
@@ -409,8 +409,10 @@ footer {
 }
 
 nav {
-  padding-top: 15px;
-  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  background: none;
+
 }
 
 .nav-links {
@@ -428,11 +430,12 @@ nav {
   padding-bottom: 5px;
   margin-left: 8px;
   margin-right: 8px;
+  color: grey;
 }
 
 .hero-text {
   margin-left: 15px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .browse-btn {
@@ -441,10 +444,6 @@ nav {
 
 .titletext {
   font-size: 45px;
-}
-
-.beats {
-  padding-top: 0;
 }
 
 .beats-titletext {
