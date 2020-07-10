@@ -15,7 +15,7 @@ body {
 a {
   text-decoration: none;
   color: white;
-  padding-right: 40px;
+  padding-right: 10px;
 }
 
 .up-left-logo {
@@ -37,7 +37,9 @@ nav {
   height: 30px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  background: black;
+  padding-left: 10px;
 }
 
 .up-left-logo {
@@ -50,16 +52,17 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: center;
+  font-weight: bold;
 }
 
 .link {
   font-family: 'Noto Sans', sans-serif;
   font-size: 12px;
+  color: #4d047d;
 }
 
 .link:hover {
-  color: grey;
+  color: white;
 }
 
 .hero-text {
@@ -170,7 +173,7 @@ textarea {
 }
 
 .beats {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .beats-titletext {
@@ -265,11 +268,6 @@ hr {
 .scPlayer {
   width: 900px;
   height: 470px;
-}
-
-.beats {
-  /*overflow: hidden;*/
-  margin-top: 40px;
 }
 
 .scBox {
