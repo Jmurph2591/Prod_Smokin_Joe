@@ -60,7 +60,7 @@
       <div id='navLinks' class='nav-links'>
         <a class='link' href="#beats">BEATS</a>
         <!--<a class='link' href="#btb">BEHIND THE BEAT</a>-->
-        <a class='link' href="mailto:info@hitrecordsonly.com">CONTACT</a>
+        <a class='link' href="mailto:smokinjoemusic@gmail.com">CONTACT</a>
         <!--<a class='link' style="cursor:pointer;" onclick="openNav()">ABOUT</a>-->
         <!---<a class='link' href="#releases">RELEASES</a>-->
         <!--<a class='link collab' id='flip' href="">COLLAB</a>-->
@@ -70,10 +70,10 @@
     </nav>
 
     <div class='hero-text'>
-      <h3 class='subtext'>MICHIGAN MADE</h3>
+      <!--<h3 class='subtext'>MICHIGAN MADE</h3>-->
       <h2 class='titletext'>SMOKIN JOE</h2>
 
-      <button onclick="window.location.href='#beats'" class='browse-btn'>BROWSE</button>
+      <button onclick="window.location.href='#beats'" class='browse-btn'>BROWSE BEATS</button>
     </div>
   </div>
 
@@ -144,6 +144,25 @@
 
     <button id='scrollToTop' class='scrollToTop'>Top</button>
 
+<script>
+
+const scrollToTop = $('#scrollToTop');
+
+$(function () {
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 20) {
+      $('#scrollToTop').fadeIn();
+    } else {
+      $('#scrollToTop').fadeOut();
+    }
+  });
+
+  $('#scrollToTop').click(function () {
+    $('html').animate({ scrollTop: '0' }, 100);
+  });
+});
+</script>
 </body>
 
 </html>
